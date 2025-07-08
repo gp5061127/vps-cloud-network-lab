@@ -20,7 +20,7 @@
 ## 📌 使用方法
 
 ```bash
-git clone https://github.com/yourusername/vps-cloud-network-lab.git
+git clone https://github.com/gp5061127/vps-cloud-network-lab.git
 cd vps-cloud-network-lab
 chmod +x install.sh
 sudo ./install.sh

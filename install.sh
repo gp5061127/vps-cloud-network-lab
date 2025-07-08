@@ -12,7 +12,7 @@ ntpdate time.windows.com
 echo "✅ 安装 acme.sh 并获取 TLS 证书..."
 curl https://get.acme.sh | sh
 ~/.acme.sh/acme.sh --set-default-ca --server letsencrypt
-export CF_Email="your@example.com"
+export CF_Email="guopeng464088@gmail.com"
 export CF_Key="your_cloudflare_global_api_key"
 ~/.acme.sh/acme.sh --issue --dns dns_cf -d yourdomain.com --keylength ec-256
 ~/.acme.sh/acme.sh --install-cert -d yourdomain.com --key-file /etc/xray/private.key --fullchain-file /etc/xray/cert.crt --reloadcmd "systemctl restart xray"
